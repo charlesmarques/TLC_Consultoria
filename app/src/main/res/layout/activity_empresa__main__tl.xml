@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Empresa_MainActivity_TL">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/detalhe_empresa" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="168dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="Sobre Empresa"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView2"
+        tools:layout_editor_absoluteY="74dp" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="368dp"
+        android:layout_height="372dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="395dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="8dp"
+                android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eget orci fermentum, pretium eros ut, consequat neque. Maecenas quis sollicitudin ligula, at malesuada velit. Sed vitae orci pretium, faucibus enim sit amet, maximus nulla. Quisque vehicula dui odio, cursus vestibulum diam cursus ultricies. Pellentesque in tristique diam, ac rutrum lacus. Integer malesuada maximus cursus. Donec dapibus vehicula eros, non mattis erat bibendum sed. Sed hendrerit justo magna, ac pulvinar sem venenatis at.  Ut porta mattis porttitor. Donec leo lacus, semper egestas tincidunt eu, eleifend quis sem. Proin imperdiet vestibulum orci in pharetra. Suspendisse cursus euismod sem nec tempor. Cras euismod, enim ac maximus ultrices, nisi ante tincidunt risus, at finibus lorem erat a tellus. Duis vel sem dignissim est ornare mollis id id leo. Fusce vestibulum augue ac velit fermentum, sit amet egestas quam dictum. Praesent rhoncus scelerisque pharetra. Duis sed mollis sem, at vehicula ante. In accumsan fringilla nulla, nec scelerisque mauris condimentum eget. Sed sodales turpis vel nunc rhoncus, sit amet vehicula lorem efficitur.  Nulla porta commodo mattis. Phasellus velit enim, dictum consectetur elit ac, lacinia pharetra diam. Etiam ut massa semper, volutpat dui eget, convallis justo. Morbi interdum varius nibh, eget dapibus libero finibus eget. Vestibulum sed mi sit amet erat rhoncus feugiat. Sed egestas mauris ac arcu tempus pellentesque. Phasellus eu nibh non est sagittis dignissim. Sed tristique porta urna, sit amet porta lorem lobortis at. Morbi bibendum suscipit dapibus. Curabitur sit amet metus faucibus, posuere nunc ac, laoreet dolor.  Vivamus at odio ac lacus vehicula blandit nec et nisl. Quisque porta leo non sodales bibendum. Cras mattis euismod vehicula. Integer nec pellentesque ipsum. Praesent sollicitudin congue magna, in mattis libero maximus id. Aenean lacinia tincidunt varius. Curabitur vestibulum varius sapien ac sollicitudin. Nullam cursus lectus sed lectus cursus ultricies. Donec eu ullamcorper felis, et elementum purus. Morbi blandit sapien odio, sit amet dignissim lectus vehicula at. Nullam ultricies tincidunt lacinia. Curabitur metus enim, posuere quis orci a, blandit pellentesque erat.  Suspendisse congue metus id consectetur pulvinar. Nunc porta ante in magna elementum facilisis. In ultricies sapien non quam pellentesque commodo. Duis placerat, dui eget vehicula finibus, orci est commodo ligula, sit amet finibus purus urna sed nunc. In ut dui nunc. Aenean eu enim vitae lectus ornare porta. In ornare scelerisque felis, vitae egestas leo ultricies vel. Proin malesuada orci ut efficitur efficitur. Fusce dignissim mauris et odio consequat volutpat. Nulla id arcu pellentesque, consectetur felis eu, iaculis arcu. Nulla vitae elit ut tortor tincidunt blandit. Sed eget risus nisl. Etiam tincidunt ac odio ut ultrices. Aliquam sed mi facilisis, scelerisque velit ut, luctus odio. Etiam vestibulum mauris vel varius aliquet. Nunc ornare mi sapien, accumsan congue erat vehicula vel.  Sed porta quis dolor faucibus tempus. Ut libero leo, iaculis ut sem quis, viverra convallis ipsum. Ut nulla lacus, suscipit ut diam quis, lacinia rutrum sem. Nulla facilisi. Morbi posuere in turpis ac porttitor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus et eros lectus. Quisque venenatis quam elit, vel pulvinar turpis scelerisque vulputate. Mauris elementum orci augue. Proin venenatis mauris in odio pretium vestibulum ut sed ex. Sed vestibulum dolor a suscipit lacinia. Nulla facilisi.  In hac habitasse platea dictumst. Nullam ornare eu urna vitae egestas. Nam a sodales lorem. Fusce elementum augue tincidunt odio varius, vel pharetra nunc commodo. Fusce porta laoreet auctor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin tempor, eros a sagittis facilisis, lectus turpis condimentum eros, ac dignissim ex lacus at nisi.  Praesent sagittis ornare nulla ac blandit. Fusce ex eros, ultricies volutpat magna id, varius tempus nulla. Suspendisse eu fermentum nisi. Aenean eleifend ipsum et feugiat consequat. Donec maximus elit sed tincidunt porta. Donec non orci dapibus metus ullamcorper dictum. Aliquam eget diam et justo tempor molestie ullamcorper accumsan arcu. Sed eget varius urna, sit amet ultrices lectus. Sed placerat, sem eget venenatis eleifend, nibh metus congue nisi, a blandit diam nunc nec augue. Nulla et sem non felis sodales bibendum eget ut massa. Curabitur ut condimentum libero. Fusce vitae placerat odio, at venenatis magna.  Vivamus vulputate enim in fermentum elementum. Nulla elit quam, dapibus eget semper eu, mattis eget leo. Pellentesque fermentum erat nisi, nec finibus nunc lacinia non. Quisque nec lectus vitae ipsum rhoncus hendrerit quis sed odio. Aliquam eu turpis facilisis, eleifend risus sed, gravida erat. Nullam eget nunc lacinia ex volutpat vulputate. In hac habitasse platea dictumst. Duis at dui id felis tristique gravida. Sed eu luctus massa. Duis eu bibendum erat. Praesent ullamcorper, mi in tincidunt hendrerit, odio lorem porttitor nunc, quis pretium nisi mi a est. Morbi egestas tortor at est tristique, sit amet ultricies magna rutrum. Vivamus hendrerit eros turpis, eu semper elit finibus in.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut id metus vel justo consectetur venenatis at nec purus. Ut eget leo nunc. Nunc at eros purus. Cras pellentesque, ex quis mattis interdum, justo ante luctus odio, nec viverra nibh sem quis justo. Duis faucibus arcu erat, a lacinia est congue at. Suspendisse sed mi dolor. Quisque convallis non arcu in mollis. Integer nunc augue, fermentum ut placerat a, finibus at nunc. Suspendisse sagittis turpis finibus, pretium tellus vel, commodo sem. Praesent sit amet enim est. Integer scelerisque diam vitae sodales viverra. Nullam finibus tempor mollis. Integer accumsan purus nibh, eu commodo velit commodo vel. Praesent gravida vulputate est. Curabitur ex nisi, dignissim et magna ac, gravida hendrerit velit."
+                app:layout_constraintBottom_toBottomOf="@+id/scrollView2"
+                app:layout_constraintTop_toTopOf="@+id/scrollView2"
+                tools:layout_editor_absoluteX="117dp" />
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
