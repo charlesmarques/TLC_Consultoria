@@ -14,13 +14,13 @@ private ImageView obtn_Empresa;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_princiapl__main__tl);
 
-        obtn_Empresa = (ImageView) findViewById(R.id.btn_Empresa);
+        obtn_Empresa =  findViewById(R.id.btn_Empresa);
 
-        obtn_Empresa.setOnClickListener(new View.OnClickListener() {
+        /*obtn_Empresa.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(Princiapl_MainActivity_TL.this ,Empresa_MainActivity_TL.class));
             }
-        });
+        });*/
     }
 }
