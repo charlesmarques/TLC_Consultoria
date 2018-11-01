@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.sample.tlcconsultoria">
+    package="com.sample.consultoria">
 
     <application
         android:allowBackup="true"
@@ -9,14 +9,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Princiapl_MainActivity_TL">
+        <activity android:name=".Principal_MainActivity_TL">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Empresa_MainActivity_TL"></activity>
+        <activity android:name=".Empresa_MainActivity_TL" />
+        <activity android:name=".ServicoMainActivityTL" />
+        <activity android:name=".ClientesMainActivityTL" />
+        <activity android:name=".ContatoMainActivityTL" />
     </application>
 
 </manifest>

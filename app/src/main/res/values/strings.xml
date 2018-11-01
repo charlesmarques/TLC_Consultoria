@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">TLC Consultoria</string>
+    <string name="app_name">Consultoria</string>
+    <string name="contato">Contato</string>
 </resources>
